@@ -1,3 +1,12 @@
+"""
+Investor Transactions Cleaning Module.
+
+This script standardizes transaction types,
+validates transaction amounts,
+checks KYC status values,
+and saves cleaned transaction data.
+"""
+
 import pandas as pd
 
 df = pd.read_csv("data/raw/08_investor_transactions.csv")

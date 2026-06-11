@@ -1,3 +1,11 @@
+"""
+Fund Master Analysis Module.
+
+This script explores fund master data,
+analyzes fund houses, categories,
+sub-categories, and risk grades,
+and validates scheme metadata.
+"""
 import pandas as pd
 
 fund_master = pd.read_csv("data/raw/01_fund_master.csv")

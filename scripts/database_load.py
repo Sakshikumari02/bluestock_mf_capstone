@@ -1,3 +1,11 @@
+"""
+Database Loading Module.
+
+This script loads cleaned datasets
+into the SQLite data warehouse
+and validates successful data insertion.
+"""
+
 import pandas as pd
 from sqlalchemy import create_engine
 from pathlib import Path

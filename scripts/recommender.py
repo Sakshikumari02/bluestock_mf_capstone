@@ -1,3 +1,11 @@
+"""
+Fund Recommendation Module.
+
+This script recommends mutual funds
+based on investor risk appetite
+using performance and risk metrics.
+"""
+
 import pandas as pd
 import os
 

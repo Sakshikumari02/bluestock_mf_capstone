@@ -1,3 +1,11 @@
+"""
+Live NAV Fetch Module.
+
+This script retrieves real-time NAV data
+for selected mutual fund schemes using MFAPI
+and saves the results to the raw data folder.
+"""
+
 import requests
 import pandas as pd
 from pathlib import Path

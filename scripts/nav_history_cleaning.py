@@ -1,3 +1,12 @@
+"""
+NAV History Cleaning Module.
+
+This script cleans historical NAV data
+by converting date formats, removing duplicates,
+forward-filling missing NAV values,
+and validating NAV values greater than zero.
+"""
+
 import pandas as pd
 
 # Load dataset

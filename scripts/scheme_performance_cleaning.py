@@ -1,3 +1,12 @@
+"""
+Scheme Performance Cleaning Module.
+
+This script validates return metrics,
+checks expense ratio ranges,
+identifies anomalies,
+and prepares performance data for analysis.
+"""
+
 import pandas as pd
 
 df = pd.read_csv("data/raw/07_scheme_performance.csv")

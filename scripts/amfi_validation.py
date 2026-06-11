@@ -1,3 +1,12 @@
+"""
+AMFI Code Validation Module.
+
+This script validates AMFI scheme codes
+between fund master and NAV history datasets.
+It identifies missing, invalid, or unmatched
+scheme codes and generates data quality checks.
+"""
+
 import pandas as pd
 
 fund_master = pd.read_csv("data/raw/01_fund_master.csv")

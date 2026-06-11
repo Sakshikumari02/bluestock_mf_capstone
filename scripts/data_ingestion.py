@@ -1,3 +1,11 @@
+"""
+Data Ingestion Module.
+
+This script loads raw mutual fund datasets,
+fetches live NAV data from MFAPI,
+and stores the data for further processing.
+"""
+
 import pandas as pd
 import os
 
