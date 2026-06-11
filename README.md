@@ -42,3 +42,43 @@ Dashboard Pages:
 - Fund Performance
 - Investor Analytics
 - SIP & Market Trends
+
+# Dataset Descriptions
+Fund Master
+
+Contains scheme metadata such as AMFI code, fund house, category, sub-category, and risk grade.
+
+NAV History
+
+Historical Net Asset Value (NAV) data for mutual fund schemes.
+
+Investor Transactions
+
+Contains SIP, Lumpsum, and Redemption transaction records.
+
+Scheme Performance
+
+Contains return metrics, expense ratios, and performance-related information.
+
+AUM Data
+
+Contains Assets Under Management (AUM) information across schemes and fund houses.
+
+Portfolio Holdings
+
+Contains sector allocation and portfolio composition data.
+
+Investor Demographics
+
+Contains investor age group, gender, and geographic information used for investor analytics.
+
+# Technologies Used
+- Python
+- Pandas
+- NumPy
+- SQLite
+- SQLAlchemy
+- Plotly
+- Seaborn
+- Power BI
+- Git & GitHub
